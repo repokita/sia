@@ -6,3 +6,4 @@ config tar urg kirim email.
 ==
 code rule:
 indent->2 space (not tab)
+checkout ?
