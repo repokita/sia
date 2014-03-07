@@ -10,7 +10,8 @@ class home extends CI_Controller {
   
   function index()
   {
-    $this->load->view('template/main');
+    $data['main_view']  = 'dashboard/main';
+    $this->load->view('template/main',$data);
   }
   
 }

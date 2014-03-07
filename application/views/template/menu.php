@@ -29,14 +29,13 @@
       <!-- /user dropdown -->
       <!-- Main navigation -->
       <ul class="navigation">
-        <li><a href="index.html"><span>Dashboard</span> <i class="icon-screen2"></i></a></li>
-        <li class="active"><a href="#" class="expand" id="second-level"><span>Blank pages</span> <i class="icon-insert-template"></i></a>
+        <!-- pake class="active" di li kalau mau di highlight -->
+        <li><a href="<?php echo base_url();?>"><span>Dashboard</span> <i class="icon-screen2"></i></a></li>
+        <li><a href="#" class="expand" id="second-level"><span>Profil</span> <i class="icon-users"></i></a>
           <ul>
-            <li class="active"><a href="blank_left_sidebar.html">Left sidebar</a></li>
-            <li><a href="blank_right_sidebar.html">Right sidebar</a></li>
-            <li><a href="blank_narrow_sidebar.html">Narrow sidebar</a></li>
-            <li><a href="blank_collapsed_sidebar.html">Collapsed sidebar</a></li>
-            <li><a href="blank_full_width.html">Full width page</a></li>
+            <!-- pake class="active" di li kalau mau di highlight -->
+            <li><a href="<?php echo base_url();?>siswa">Siswa</a></li>
+            <li><a href="<?php echo base_url();?>guru">Guru</a></li>
           </ul>
         </li>
         <li><a href="#" class="expand"><span>Navigation levels</span> <i class="icon-stack"></i></a>
